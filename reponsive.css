@@ -1,24 +1,229 @@
-@media(max-width = 991px) {
-    /* * {
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
-    } */
+@media(max-width :991px) {
     
+    body {
+        width: 375px;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+    }
     header{
-        /* display: flex;
-        justify-content: space-between;
-        width: 100%; */
         height: 65px;
-        /* border-bottom: 1px solid #dbd8d8; */
     } 
 
     .title .title--secondary {
         display: none;
     }
+    
+    .title.title--first  {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
 
     #menu--icon {
         display: block;
+        display: flex;
+        width: 24px;
+        height: 14px;
+        margin-left:94px ;
     }
 
+    header svg {
+        width: 217px;
+        height: 20px;
+    }
+
+    .content--primary img {
+        width: 100%;
+        height: 235px;
+        padding-top: 52px;
+    }
+
+    .content--primary h1  {
+        line-height: 42.96px;
+        font-size: 35px;
+        width: 335px;
+        height: 172px;
+        margin-top: 32px;
+        margin-bottom: 24px;
+    }
+    .content--primary h4 {
+        font-size: 16px;
+        line-height: 27.2px;
+        width: 335px;
+        height: 81px;
+    }
+    .line {
+        width: 100%;
+        margin-top: 52px;
+    }
+
+    .content--secondary h2 {
+        width: 164px;
+        height: 38px;
+        font-size: 32px;
+        line-height: 38.19px;
+        white-space: nowrap;
+        margin-top: 56px;
+        margin-bottom: 29px;
+    }
+
+    .picture--primary img {
+        width: 335px;
+        height: 194px;
+        display: inline-block;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+
+     .line--primary div:first-child {
+        display: none;
+        order: 2;
+    }
+
+    .line--primary div:last-child {
+        order: 1;
+    }
+
+    .line--secondary div:last-child {
+        display: none;
+    }
+
+    .line--tertiary {
+        display: none;
+    }
+
+    .line--fourth {
+        display: none;
+    }
+
+    .line--fifth {
+        display: none;
+    }
+
+    .line--sixth .picture--primary--first {
+        display: none;
+    }
+
+    .box.line--seventh {
+        display: block;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box.line--seventh img  {
+        width: 304px;
+        height: 176px;
+        object-fit: cover;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box.line--seventh p {
+        font-size: 22px;
+        font-family: 'sf pro display', sans-serif;
+        line-height: 26.4px ;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .box.line--seventh div:first-child img {
+        width: 335px;
+        height: 194px;
+    }
+
+    .box.line--seventh div:first-child p {
+        width: 262px;
+        height: 78px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box.line--seventh div:nth-child(2) p {
+        width: 282px;
+        height: 104px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box.line--seventh div:last-child p {
+        width: 262px;
+        height: 78px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .box.line--seventh div {
+        margin: 42px auto 0px;
+    }
+
+    .box.line--sixth div:last-child img {
+        width: 304px;
+        height: 176px;   
+    }
+
+    .box.line--sixth div:last-child p {
+        height: 104px;
+    }
+
+    footer {
+        margin-top: 82px;
+        height: 456px;
+    }
+
+    .contentlast01 li {
+        display: none;
+    }
+
+    .contentlast01 li:nth-child(2) {
+        display: block;
+        margin-left: -33px;
+    }
+
+    .contentlast01 li:nth-child(3) {
+        display: block;
+    }
+
+    .contentlast01 li:nth-child(4) {
+        display: block;
+        margin-right: -59px;
+        padding-left: 20px;
+    }
+
+    .contentlast01 li {
+        font-size: 16px;
+        justify-content: space-around;
+        text-align: center;
+        line-height: 28px;
+        letter-spacing: 2px;
+    }
+
+    .contentlast-first svg {
+        width: 236.37px;
+        height: 22.18px;
+    }
+
+    .contentlast-first p {
+        font-size: 13px;
+        line-height: 18.2px;
+        width: 287px;
+        height: 71px;
+        word-spacing: 0px;
+        word-spacing: 0px;
+        box-sizing: border-box;
+    }
+    
+    .contentlast-first nav {
+        height: 22px;
+        font-size: 13px;
+    }
+
+    span {
+        display: none;
+    }
 }

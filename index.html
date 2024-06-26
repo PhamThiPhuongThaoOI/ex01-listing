@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listing desktop</title>
-    <link rel="stylesheet" href="./style.css?v=1.0">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./reponsive.css">
     <link href="https://fonts.cdnfonts.com/css/sf-mono" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/new-york-extra-large" rel="stylesheet">
@@ -13,6 +13,7 @@
 <body>
     <div class="container">
         <header class="title">
+           <div class=" title title--first">
             <svg xmlns="http://www.w3.org/2000/svg" width="397" height="39" viewBox="0 0 397 39" fill="none">
                 <path d="M1.46398 32H15.588V31.252L11.012 30.68C9.69198 30.504 8.72399 29.492 8.72399 28.128V7.05204L26.896 32H28.656V4.98404C28.656 3.66404 29.58 2.56404 30.9 2.38804L34.244 1.94804V1.20004H20.164V1.94804L24.74 2.52004C26.06 2.69604 27.028 3.70804 27.028 5.07204V25.4L12.772 5.55604C9.82399 1.42004 6.74398 1.20004 0.583984 1.20004V1.94804C3.26798 2.34404 5.90798 3.35604 7.05199 5.38004V28.216C7.05199 29.536 6.12798 30.636 4.80798 30.812L1.46398 31.252V32Z" fill="black"/>
                 <path d="M59.059 32.704C68.387 32.704 75.295 26.192 75.295 16.6C75.295 7.00804 68.387 0.540039 59.059 0.540039C49.7309 0.540039 42.779 7.00804 42.779 16.6C42.779 26.192 49.7309 32.704 59.059 32.704ZM59.103 31.164C51.007 31.164 47.443 24.168 47.443 15.588C47.443 7.58004 51.183 2.08004 59.015 2.08004C66.935 2.08004 70.587 8.94404 70.587 17.26C70.587 25.532 67.243 31.164 59.103 31.164Z" fill="black"/>
@@ -26,13 +27,13 @@
                 <path d="M367.155 32H395.095L396.414 21.616H395.667C392.983 28.568 391.135 30.46 387.219 30.46H378.902C377.582 30.46 376.615 29.712 376.615 28.348V17.128H386.954C388.142 17.128 389.33 17.964 389.418 19.108L389.902 24.256H390.651V8.90004H389.902L389.418 13.608C389.286 14.796 388.142 15.588 386.954 15.588H376.615V2.74004H386.339C389.595 2.74004 392.41 4.28004 394.171 11.628H394.918L394.039 1.20004H367.155V1.94804L369.97 2.30004C371.29 2.47604 372.259 3.48804 372.259 4.85204V28.348C372.259 29.712 371.29 30.724 369.97 30.9L367.155 31.252V32Z" fill="black"/>
                 </svg>
             
-                <div id="menu--icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="15" viewBox="0 0 24 15" fill="none">
+                
+                    <svg id = menu--icon xmlns="http://www.w3.org/2000/svg" width="24" height="15" viewBox="0 0 24 15" fill="none">
                         <line y1="0.5" x2="24" y2="0.5" stroke="black"/>
                         <line y1="7.5" x2="24" y2="7.5" stroke="black"/>
                         <line y1="14.5" x2="24" y2="14.5" stroke="black"/>
                     </svg>
-                </div>
+           </div>
                 <div class="title--secondary">
                     <div class="item">BLOG</div>
                     <div class="item">ABOUT</div>
@@ -100,6 +101,20 @@
                         <p>Here are some things you should know regarding how we work </p>
                     </div>
                 </div>
+                <div class=" box line--seventh">
+                    <div class=" style--first" >
+                        <img class= "media--picture"src="images/pinkface.png" alt="image">
+                        <p>Here are some things you should know regarding how we work </p>
+                    </div>
+                    <div class=" style--second">
+                        <img class="media--picture"src="images/epox.png" alt="image">
+                        <p>Updating list of 50+ sources on distributed teams, remote work, and how to make it all work better</p>
+                    </div>
+                    <div class="media--picture style--third">
+                        <img src="images/dedark.png" alt="image">
+                        <p>A few words about this blog platform, Ghost, and how this site was made</p>
+                    </div>
+                </div>
                 <div class="box line--sixth">
                     <div class="picture--primary picture--primary--first">
                         <img src="images/roadcity.jpg" alt="image">
@@ -139,7 +154,7 @@
                     <path d="M253.568 23.48C258.368 23.48 261.76 21.048 261.76 17.528C261.76 8.696 248.736 9.592 248.736 5.17599C248.736 2.904 250.816 1.24 254.24 1.24C257.856 1.24 259.552 3.63999 259.904 8.91999H260.768L261.088 1.65599C259.2 0.823996 256.8 0.119995 254.24 0.119995C249.248 0.119995 246.144 2.35999 246.144 5.49599C246.144 14.104 259.2 12.888 259.2 18.008C259.2 20.568 256.832 22.36 253.888 22.36C250.08 22.36 248.16 19.736 247.456 13.816H246.592L245.952 21.4C248.16 22.616 250.208 23.48 253.568 23.48Z" fill="white"/>
                     <path d="M269.764 23H290.5L291.46 15.448H290.916C288.964 20.504 287.268 21.88 284.42 21.88H278.852C277.892 21.88 277.188 21.336 277.188 20.344V12.184H284.58C285.444 12.184 286.308 12.792 286.372 13.624L286.724 17.368H287.268V6.2H286.724L286.372 9.624C286.276 10.488 285.444 11.064 284.58 11.064H277.188V1.72H283.78C286.148 1.72 288.548 2.83999 289.828 8.18399H290.372L289.732 0.599995H269.764V1.144L271.812 1.4C272.772 1.528 273.476 2.264 273.476 3.25599V20.344C273.476 21.336 272.772 22.072 271.812 22.2L269.764 22.456V23Z" fill="white"/>
                     </svg>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit tempus erat egestas efficitur. In hac habitasse platea dictumst. Fusce a nunc eget ligula suscipit finibus. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit tempus erat egestas efficitur. In hac habitasse platea dictumst. Fusce a nunc eget ligula <span>suscipit finibus.</span> </p>
                 <nav>
                     <ul class="contentlast">
                         <li class="name01">Twitter</li>

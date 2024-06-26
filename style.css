@@ -48,9 +48,7 @@ header {
     border-bottom: 1px solid #dbd8d8;
 }
 #menu--icon {
-    /* display: none; */
-    width: 24px;
-    height: 14px;
+    display: none;
 }
 
 header svg {
@@ -171,6 +169,10 @@ header svg {
 .box.line--sixth {
     margin-top: var(--primary-margintop);
 }
+
+.box.line--seventh {
+    display: none;
+}
 .picture--primary img {
     width: 304px;
     height: 176px;
@@ -288,12 +290,5 @@ footer {
     font-weight: 100;
     line-height: 16.8px ;
     margin-top: var(--primary-margintop) ;
-}
-
-@media(max-width=992) {
-
-    header {
-        height: 65px;
-    }
 }
 
